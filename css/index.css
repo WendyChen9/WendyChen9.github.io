@@ -26,6 +26,12 @@
     text-shadow: none;
   }
 }
+h1,p,h2,h3,li {
+  font-family: 'Coiny', cursive;
+}
+p {
+  font-size: 30px;
+}
 
 .text-container > .stext:nth-child(2) {
   animation-delay: 0.25s;
