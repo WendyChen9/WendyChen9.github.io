@@ -1,0 +1,63 @@
+#mainNav,#footer {
+  background-color: #d2c0d6;
+}
+
+#footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text-container > .stext {
+  text-transform: uppercase;
+  font-family: 'Coiny', cursive;
+  font-size: 120px;
+  animation: glow 2.25s ease-in-out infinite;
+  animation-iteration-count: 1;
+}
+
+@keyframes glow {
+  0%, 100% {
+    color: #FFF;
+    text-shadow: 0 0 10px #ff4fb5, 0 0 50px #ff4fb5, 0 0 100px #ff4fb5;
+  }
+
+  10%, 90% {
+    color: #ff0093;
+    text-shadow: none;
+  }
+}
+
+.text-container > .stext:nth-child(2) {
+  animation-delay: 0.25s;
+}
+
+.text-container > .stext:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+.text-container > .stext:nth-child(4) {
+  animation-delay: 0.5s;
+}
+
+.text-container > .stext:nth-child(5) {
+  animation-delay: 0.75s;
+}
+
+.text-container > .stext:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.text-container > .stext:nth-child(7) {
+  animation-delay: 1.25s;
+}
+
+.text-container > .stext:nth-child(8) {
+  animation-delay: 1.5s;
+}
+.text-container > .stext:nth-child(9) {
+  animation-delay: 1.75s;
+}
+
+.text-body {
+
+}
